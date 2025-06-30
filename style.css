@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #testimonials-seksjonen {
   display: grid;
-  grid-template-columns: ;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: ;
   gap: ;
 }
@@ -24,4 +29,7 @@
 #patrick {
   background-color: #191f2d;
   color: #bcbfc4;
+}
+#storSkrift {
+  font-size: large;
 }
