@@ -1,0 +1,27 @@
+#testimonials-seksjonen {
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: ;
+  gap: ;
+}
+
+#daniel {
+  background-color: #7647c2;
+  color: #f8f1fc;
+}
+#jeanette {
+  background-color: #ffffff;
+  color: #595b6d;
+}
+#jonathan {
+  background-color: #49556b;
+  color: #f8feff;
+}
+#kira {
+  background-color: #ffffff;
+  color: #525c6c;
+}
+#patrick {
+  background-color: #191f2d;
+  color: #bcbfc4;
+}
