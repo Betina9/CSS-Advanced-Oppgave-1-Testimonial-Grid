@@ -38,6 +38,7 @@
   border-radius: 15px;
   box-shadow: 40px 40px 30px #cecfd4;
   grid-column: span 1;
+  padding: 18px;
 }
 
 .jonathanpicture {
@@ -51,6 +52,7 @@
   border-radius: 15px;
   box-shadow: 40px 40px 30px #cecfd4;
   grid-row: span 2;
+  padding: 18px;
 }
 
 .kirapicture {
@@ -64,6 +66,7 @@
   border-radius: 15px;
   box-shadow: 40px 40px 30px #cecfd4;
   grid-column: span 1;
+  padding: 18px;
 }
 
 .jeanettepicture {
@@ -77,6 +80,7 @@
   border-radius: 15px;
   box-shadow: 40px 40px 30px #cecfd4;
   grid-column: span 2;
+  padding: 18px;
 }
 
 .patrickpicture {
