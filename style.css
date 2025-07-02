@@ -12,6 +12,7 @@
   gap: 30px;
   max-width: 1200px;
   margin: auto;
+  margin-top: 50px;
 }
 
 .profile {
@@ -36,11 +37,11 @@
   margin-top: 2px;
 }
 #daniel {
-  background-color: #7647c2;
+  background-color: #733fc8;
   color: #f8f1fc;
   position: relative;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 40px 40px 30px rgba(0, 0, 0, 0.2);
   grid-column: span 2;
   padding: 25px;
   display: flex;
@@ -86,9 +87,8 @@
 .quote {
   position: absolute;
   top: 0;
-  right: 20px;
+  right: 100px;
   width: 90px;
-  opacity: 0.1;
   z-index: 1;
 }
 
