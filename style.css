@@ -9,30 +9,99 @@
 #testimonials-seksjonen {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 40px;
-  margin: 100px;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
 }
 
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.p {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-top: 2px;
+}
 #daniel {
   background-color: #7647c2;
   color: #f8f1fc;
   position: relative;
   border-radius: 15px;
-  box-shadow: 30px 30px 30px #cecfd4;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   grid-column: span 2;
-  padding: 18px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  z-index: 2;
+}
+
 .danielpicture {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: 4px solid #a174eb;
+  object-fit: cover;
 }
+
+.profile-text h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.profile-text h3 {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  margin: 0;
+}
+
+#storSkrift {
+  font-size: 1rem;
+  font-weight: bold;
+  z-index: 2;
+  position: relative;
+}
+
 .quote {
   position: absolute;
-  top: 0px;
-  right: 110px;
-  font-size: 120px;
-  color: #a874f4;
-  z-index: 0;
+  top: 0;
+  right: 20px;
+  width: 90px;
+  opacity: 0.1;
+  z-index: 1;
+}
+
+.quote img {
+  width: 100%;
+  height: auto;
+}
+
+#daniel p {
+  position: relative;
+  z-index: 2;
+  font-size: 0.9rem;
+  line-height: 1.4;
 }
 
 #jonathan {
@@ -45,8 +114,11 @@
 }
 
 .jonathanpicture {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: 4px solid #c3c6cc;
+  object-fit: cover;
 }
 
 #kira {
@@ -59,8 +131,11 @@
 }
 
 .kirapicture {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: 4px solid #f6f6f7;
+  object-fit: cover;
 }
 
 #jeanette {
@@ -73,8 +148,11 @@
 }
 
 .jeanettepicture {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: 4px solid #f7f8f4;
+  object-fit: cover;
 }
 
 #patrick {
@@ -87,8 +165,11 @@
 }
 
 .patrickpicture {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: 4px solid #6d53aa;
+  object-fit: cover;
 }
 
 #storSkrift {
