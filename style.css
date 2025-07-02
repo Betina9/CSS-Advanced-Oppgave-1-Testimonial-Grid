@@ -5,7 +5,7 @@
 }
 #testimonials-seksjonen {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 60% 20% 20%;
   grid-template-rows: ;
   gap: ;
 }
@@ -13,22 +13,27 @@
 #daniel {
   background-color: #7647c2;
   color: #f8f1fc;
+  border-radius: 15px;
 }
 #jeanette {
   background-color: #ffffff;
   color: #595b6d;
+  border-radius: 15px;
 }
 #jonathan {
   background-color: #49556b;
   color: #f8feff;
+  border-radius: 15px;
 }
 #kira {
   background-color: #ffffff;
   color: #525c6c;
+  border-radius: 15px;
 }
 #patrick {
   background-color: #191f2d;
   color: #bcbfc4;
+  border-radius: 15px;
 }
 #storSkrift {
   font-size: large;
