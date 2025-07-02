@@ -5,35 +5,45 @@
 }
 #testimonials-seksjonen {
   display: grid;
-  grid-template-columns: 60% 20% 20%;
-  grid-template-rows: ;
-  gap: ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin-left: 10px;
 }
 
 #daniel {
   background-color: #7647c2;
   color: #f8f1fc;
   border-radius: 15px;
+  box-shadow: 6px 6px 50px gray;
+  grid-column: span 2;
 }
 #jeanette {
   background-color: #ffffff;
   color: #595b6d;
   border-radius: 15px;
+  box-shadow: 6px 6px 50px gray;
+  grid-column: span 1;
 }
 #jonathan {
   background-color: #49556b;
   color: #f8feff;
   border-radius: 15px;
+  box-shadow: 6px 6px 50px gray;
+  grid-column: span 1;
 }
 #kira {
   background-color: #ffffff;
   color: #525c6c;
   border-radius: 15px;
+  box-shadow: 6px 6px 50px gray;
+  grid-row: span 2;
 }
 #patrick {
   background-color: #191f2d;
   color: #bcbfc4;
   border-radius: 15px;
+  box-shadow: 6px 6px 50px gray;
+  grid-column: span 2;
 }
 #storSkrift {
   font-size: large;
