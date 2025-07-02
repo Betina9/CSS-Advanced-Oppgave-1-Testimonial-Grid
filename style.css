@@ -6,45 +6,84 @@
 #testimonials-seksjonen {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 20px;
-  margin-left: 10px;
+  gap: 40px;
+  margin: 100px;
 }
 
 #daniel {
   background-color: #7647c2;
   color: #f8f1fc;
+  position: relative;
   border-radius: 15px;
-  box-shadow: 6px 6px 50px gray;
+  box-shadow: 30px 30px 30px #cecfd4;
   grid-column: span 2;
+  padding: 18px;
 }
-#jeanette {
-  background-color: #ffffff;
-  color: #595b6d;
-  border-radius: 15px;
-  box-shadow: 6px 6px 50px gray;
-  grid-column: span 1;
+.danielpicture {
+  border-radius: 50%;
+  border: 4px solid #a174eb;
 }
+.quote {
+  position: absolute;
+  top: 0px;
+  right: 110px;
+  font-size: 120px;
+  color: #a874f4;
+  z-index: 0;
+}
+
 #jonathan {
   background-color: #49556b;
   color: #f8feff;
   border-radius: 15px;
-  box-shadow: 6px 6px 50px gray;
+  box-shadow: 40px 40px 30px #cecfd4;
   grid-column: span 1;
 }
+
+.jonathanpicture {
+  border-radius: 50%;
+  border: 4px solid #c3c6cc;
+}
+
 #kira {
   background-color: #ffffff;
   color: #525c6c;
   border-radius: 15px;
-  box-shadow: 6px 6px 50px gray;
+  box-shadow: 40px 40px 30px #cecfd4;
   grid-row: span 2;
 }
+
+.kirapicture {
+  border-radius: 50%;
+  border: 4px solid #f6f6f7;
+}
+
+#jeanette {
+  background-color: #ffffff;
+  color: #595b6d;
+  border-radius: 15px;
+  box-shadow: 40px 40px 30px #cecfd4;
+  grid-column: span 1;
+}
+
+.jeanettepicture {
+  border-radius: 50%;
+  border: 4px solid #f7f8f4;
+}
+
 #patrick {
   background-color: #191f2d;
   color: #bcbfc4;
   border-radius: 15px;
-  box-shadow: 6px 6px 50px gray;
+  box-shadow: 40px 40px 30px #cecfd4;
   grid-column: span 2;
 }
+
+.patrickpicture {
+  border-radius: 50%;
+  border: 4px solid #6d53aa;
+}
+
 #storSkrift {
   font-size: large;
 }
