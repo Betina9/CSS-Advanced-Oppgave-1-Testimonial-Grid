@@ -35,7 +35,8 @@ h3 {
 }
 
 p {
-  font-size: medium;
+  font-size: 0.9rem;
+  font-weight: 400;
   opacity: 0.8;
   margin-top: 2px;
 }
@@ -69,8 +70,8 @@ p {
 }
 
 #storSkrift {
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.1rem;
+  font-weight: 700;
   z-index: 2;
   position: relative;
 }
