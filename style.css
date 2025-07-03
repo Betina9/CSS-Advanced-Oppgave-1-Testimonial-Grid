@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .body {
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   Font size: 13px ;
 }
 #testimonials-seksjonen {
@@ -15,6 +15,16 @@
   margin: auto;
   margin-top: 50px;
 }
+@media (min-width: 768px) {
+  #testimonials-seksjonen {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  #testimonials-seksjonen {
+    grid-template-columns: repeat(4, 1fr);
+  }
 
 .profile {
   display: flex;
@@ -42,8 +52,8 @@ p {
   margin-top: 2px;
 }
 #daniel {
-  background-color: #733fc8;
-  color: #f8f1fc;
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 0%, 100%);
   position: relative;
   border-radius: 15px;
   box-shadow: 40px 40px 30px rgba(0, 0, 0, 0.2);
@@ -66,7 +76,7 @@ p {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 3px solid #a174eb;
+  border: 3px solid hsl(264, 82%, 80%);
   object-fit: cover;
 }
 
@@ -86,10 +96,10 @@ p {
 }
 
 #jonathan {
-  background-color: #49556b;
+  background-color: hsl(217, 19%, 35%);
   color: #f8feff;
   border-radius: 15px;
-  box-shadow: 40px 40px 30px #cecfd4;
+  box-shadow: 40px 40px 30px hsl(0, 0%, 100%);
   grid-column: span 1;
   padding: 18px;
 }
@@ -98,13 +108,13 @@ p {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 3px solid #c3c6cc;
+  border: 3px solid hsl(224, 10%, 45%);
   object-fit: cover;
 }
 
 #kira {
   background-color: #ffffff;
-  color: #525c6c;
+  color: hsl(219, 29%, 14%);
   border-radius: 15px;
   box-shadow: 40px 40px 30px #cecfd4;
   grid-row: span 2;
@@ -121,7 +131,7 @@ p {
 
 #jeanette {
   background-color: #ffffff;
-  color: #595b6d;
+  color: hsl(219, 29%, 14%);
   border-radius: 15px;
   box-shadow: 40px 40px 30px #cecfd4;
   grid-column: span 1;
@@ -138,7 +148,7 @@ p {
 
 #patrick {
   background-color: #191f2d;
-  color: #bcbfc4;
+  color: hsl(214, 17%, 92%);
   border-radius: 15px;
   box-shadow: 40px 40px 30px #cecfd4;
   grid-column: span 2;
@@ -149,7 +159,7 @@ p {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 3px solid #6d53aa;
+  border: 3px solid hsl(263, 55%, 52%);
   object-fit: cover;
 }
 
